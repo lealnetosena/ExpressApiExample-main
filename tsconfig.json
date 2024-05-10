@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "rootDir": "./",
+        "baseUrl": "./src",
+        "paths": {
+            "src/*": ["src/*"],
+            "@configs/*": ["configs/*"],
+            "@domain/*": ["domain/*"],
+            "@di/*": ["di/*"],
+            "@requests/*": ["domain/requests/*"],
+            "@responses/*": ["domain/responses/*"],
+            "@maps/*": ["maps/*"],
+            "@controllers/*": ["controllers/*"],
+            "@middlewares/*": ["middlewares/*"],
+            "@services/*": ["services/*"],
+            "@useCases/*": ["useCases/*"],
+            "@presenters/*": ["presenters/*"],
+            "@repositories/*": ["repositories/*"],
+            "@validators/*": ["validators/*"],
+            "@routes/*": ["routes/*"]
+        },
+        "resolveJsonModule": true,
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "skipLibCheck": true
+    }
+}

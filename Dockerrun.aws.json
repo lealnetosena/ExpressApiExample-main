@@ -1,0 +1,21 @@
+{
+    "AWSEBDockerrunVersion": 2,
+    "volumes": [],
+    "containerDefinitions": [
+        {
+            "name": "api",
+            "image": "543454195198.dkr.ecr.sa-east-1.amazonaws.com/expressapi:latest",
+            "environment": [],
+            "essential": true,
+            "memory": 256,
+            "links": [],
+            "mountPoints": [],
+            "portMappings": [
+                {
+                    "containerPort": 8080,
+                    "hostPort": 80
+                }
+            ]
+        }
+    ]
+}
